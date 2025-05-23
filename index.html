@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>3D AI Hub</title>
+</head>
+<body>
+  <form action="https://hooks.zapier.com/hooks/catch/demo/123456/" method="POST">
+    <input type="text" name="scene-description" placeholder="输入场景描述..." />
+    <button type="submit">生成场景</button>
+  </form>
+
+  <h2>3D 场景展示</h2>
+  <iframe id="spline-scene" width="100%" height="500px" src="https://my.spline.design/laboratory-demo"></iframe>
+
+  <h2>Meta 虚拟房间</h2>
+  <div id="meta-room-link"><a href="https://meta.com/vr-room/demo-room" target="_blank">点击进入房间</a></div>
+  <img id="meta-qr-code" src="https://api.qrserver.com/v1/create-qr-code/?data=https://meta.com/vr-room/demo-room&size=150x150" alt="扫码加入">
+
+  <h2>AI 聊天助手</h2>
+  <iframe width="100%" height="400px"
+    src="https://console.dialogflow.com/api-client/demo/embedded/d3m0-4g3nt-1d">
+  </iframe>
+</body>
+</html>
